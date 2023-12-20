@@ -4,8 +4,8 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-
-onclick = function randomCard() {
+let window = document.querySelector(".button");
+window.onclick = function randomCard() {
   let logo = ["♦", "♥", "♠", "♣"];
   let number = [
     "A",
