@@ -20,13 +20,19 @@
     />
   </head>
   <body>
-    <h3 class="text-center">Haz click en la carta para generar una nueva!</h3>
     <div class="card">
-      <div class="top-logo"></div>
-      <div class="button text-center number">
-        <button onclick="randomCard()" type="button"></button>
-      </div>
-      <div class="bottom-logo"></div>
+      <div class="top-logo">♥</div>
+      <div class="text-center number">4</div>
+      <div class="bottom-logo">♥</div>
+    </div>
+    <div class="button d-grid gap-2 col-6 mx-auto">
+      <button
+        onclick="randomCard()"
+        type="button"
+        class="btn btn-outline-warning"
+      >
+        Generate New Card
+      </button>
     </div>
   </body>
   <script
